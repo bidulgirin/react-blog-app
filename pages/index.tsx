@@ -23,8 +23,8 @@ const Home = ({
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <section className={homeStyles.main_wrap}>
-          <div className={homeStyles.main_img}>
-            <Image src="/me.png" alt="나에용" />
+          <div>
+            <Image className={homeStyles.main_img} src="/me.png" alt="나에용" />
           </div>
 
           <p className={homeStyles.main_title}>
