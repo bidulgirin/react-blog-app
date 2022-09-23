@@ -23,9 +23,7 @@ const Home = ({
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <section className={homeStyles.main_wrap}>
-          <template>
-            <Image src="/me.png" width={300} height={300} alt="나에용" />
-          </template>
+          <Image src="/me.png" width={300} height={300} alt="나에용" />
 
           <p className={homeStyles.main_title}>안녕하세요! 이경민입니다</p>
           <p className={homeStyles.main_title_des}>
