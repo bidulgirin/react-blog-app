@@ -23,15 +23,13 @@ const Home = ({
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <section className={homeStyles.main_wrap}>
-          {/* <div>
-            <Image className={homeStyles.main_img} src="/me.png" alt="나에용" />
-          </div> */}
+          <template>
+            <Image src="/me.png" width={300} height={300} alt="나에용" />
+          </template>
 
-          <p className={homeStyles.main_title}>
-            안녕하세요! 저의 작은 블로그 입니다
-          </p>
+          <p className={homeStyles.main_title}>안녕하세요! 이경민입니다</p>
           <p className={homeStyles.main_title_des}>
-            데이터 가져오는데 모듈이 엄청 들어
+            만드는것 보다 배포가 더 어려워
           </p>
         </section>
         <section className={homeStyles.blog_style}>
