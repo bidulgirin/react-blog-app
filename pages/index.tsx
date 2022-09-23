@@ -23,9 +23,9 @@ const Home = ({
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <section className={homeStyles.main_wrap}>
-          <div>
+          {/* <div>
             <Image className={homeStyles.main_img} src="/me.png" alt="나에용" />
-          </div>
+          </div> */}
 
           <p className={homeStyles.main_title}>
             안녕하세요! 저의 작은 블로그 입니다
